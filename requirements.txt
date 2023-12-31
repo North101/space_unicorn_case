@@ -1,0 +1,1 @@
+pysvg @ git+https://github.com/North101/pysvg.git@cf3feb9523749a016575c9f32297615368085c03 ; python_version >= "3.12" and python_version < "4.0"

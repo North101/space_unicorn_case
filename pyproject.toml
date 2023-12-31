@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "space-unicorn-case"
+version = "0.1.0"
+description = ""
+authors = ["North101"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pysvg = {git = "https://github.com/North101/pysvg.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+multi_line_output=3
+include_trailing_comma=true
+
+[tool.autopep8]
+indent_size = 2
+max_line_length = 120
